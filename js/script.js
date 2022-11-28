@@ -7,7 +7,8 @@ const movieDB = {
         "Ла-ла лэнд",
         "Одержимость",
         "Скотт Пилигрим против...",
-        "Hi wy world"
+        "Hi wy world",
+        "123456"
     ]
 };
 const adv = document.querySelectorAll(".promo__adv img"),
@@ -30,3 +31,4 @@ movieDB.movies.forEach((film, i) => {
 
     `;
 });
+console.log(1555);
